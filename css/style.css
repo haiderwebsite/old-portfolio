@@ -1,0 +1,404 @@
+
+/*.......... compolsory-items ........... */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    font-family: 'Kanit', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ 
+/* ..............banner-section start here ..........*/
+.banner{
+    width: 100%;
+    height: 100vh;  
+    background-color: #149ddd;  
+}
+.banner .left-part{
+    width: 25%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #040b14;
+    overflow-y: auto;
+    padding: 20px 5px;
+}
+.banner .left-part .profile{
+    width: 80%;
+    margin: 0 auto;
+}
+.profile figcaption a{
+    padding-top: 20px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+}
+.banner .left-part .profile img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;   
+}
+/*.........social-media........*/
+.social-media ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.social-media ul li{
+    width: 30px;
+    height: 30px;
+    list-style-type: none;
+    background-color: #212431;
+    border: 1px solid #212431;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social-media ul li a{
+    color: #fff;
+}
+
+/* .......nav-item start here........ */
+.nav-items{
+    text-align: left;
+}
+.nav-items ul li{
+    padding-bottom: 20px;
+    list-style-type: none;
+}
+.nav-items span{
+    font-size:20px;
+    color: #45464b;
+}
+.nav-items ul li a{
+    color:#fff;
+    text-decoration: none;
+    padding-left: 8px;
+    font-size: 20px;
+}
+.copy-right {
+    width: 25%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #040b14;
+    padding: 20px 5px;
+}
+.copy-right p, span{
+    font-size: 15px;
+    font-weight: 300;
+    color: #45464b;
+}
+
+/*......... banner section right-part start here ............*/
+
+.banner .right-part{
+    width: 75%;
+    margin-left: 25%;
+}
+.banner .bg-part{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../img/1689095966241.png);
+    background-blend-mode: darken;
+    background-attachment: fixed;
+}
+.bg-part h1{
+    padding-top: 150px;
+    font-size: 60px;
+    font-weight: 300;
+    color: #fff;
+}
+.bg-part h1, h5{
+    padding-left: 80px;
+}
+.bg-part h5{
+    font-size: 30px;
+    font-weight: 300;
+    color: #fff;
+}
+/*..........customize classes...........*/
+.all-details{
+    width: 100%;
+}
+.containerCustom{
+    width: 75%;
+    margin-left: 25%;
+    background-color: #fff;
+    padding: 30px;
+}
+.dFlexEven{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+/* similar-details */
+.similar-details{
+    width: 100%;
+    padding: 20px 10px;
+}
+.similar-details h2{
+    width: 50px;
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 10px;
+    color: #173b6c;
+    border-bottom: 5px solid #0ea0e4;
+}
+.similar-details p{
+    font-size: 16px;
+    font-weight: 300;
+}
+/*....... about details start here......*/
+.about-details{
+    width: 100%;
+    padding: 20px 10px;
+}
+.about-section .image-part{
+    width: 30%;
+}
+.about-section .image-part img{
+    width: 100%;
+    object-fit: cover;
+}
+
+/* about closed  */
+.dFlexBet{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/*........personal details start here .....*/
+.about-section .personal-details{
+    width: 70%;
+    padding-left: 10px;
+}
+.personal-details h2{
+    font-weight: 400;
+    font-size: 28px;
+    color: #173b6c;
+}
+.personal-details p{
+    font-size: 15px;
+    font-weight: 300;
+    color: #45464b;
+}
+.personal-details ul li{
+    list-style-type: none;
+    font-size: 15px;
+    font-weight: 200;
+}
+.personal-details ul li i{
+    color: #149ddd;
+    font-weight: 100;
+    font-size: 12px;
+}
+.personal-details ul span{
+    font-size: 17px;
+    font-weight: 400;
+}
+/*........personal details closed here....... */
+
+/* .......counting....... */
+.counting .lft{
+    width: 40%;
+}
+.counting .rht{
+    width: 60%;
+}
+.counting .lft span{
+    font-size: 60px;
+    color: #149ddd;
+}
+.counting .rht span{
+    font-size: 50px;
+    color: #040b14;
+    font-weight: 600;
+}
+.counting .rht h6{
+    font-size: 20px;
+    font-weight: 400;
+    color: #212431;
+}
+.counting .rht p{
+    font-size: 18px;
+    font-weight: 300;
+    color: #45464b;
+}
+
+/*sklils section*/
+.skils-section{
+    background-color: #f5f8fd;
+}
+.skils-section ul li{
+    list-style-type: none;
+    font-size: 30px;
+    font-weight: 300;
+    border-bottom: 1px dotted #4c4d50;
+    padding: 10px 0; 
+}
+.skils-section ul li i{
+    color: #45464b;
+}
+/*sumary-details*/
+.sumary-details{
+    width: 100%;
+}
+.sumary{
+    position: relative;
+}
+.sumary-details span{
+    position: absolute;
+    top: 1px;
+    left: -8.6px;
+    font-size: 25px;
+}
+.sumary-details h6{
+    padding-left: 36px;
+    font-size: 15px;
+    padding-bottom: 5px;
+
+}
+.sumary-details .sumary2{
+    border-left: 3px solid #212431;
+    padding-left: 35px;
+}
+.sumary-details .sumary2 p{
+    font-size: 15px;
+    color: #45464b;
+}
+.btn-style{
+    margin-top: 15px;
+    display: inline-block;
+    border: 1px solid #c5c6c9;
+    padding: 5px 8px;
+    background-color: #bcbdc2;
+    
+}
+
+/*.....portfolio-section.....*/
+.portfolio-section{
+    background-color: #f5f8fd;
+}
+/* .portfolio-section img:hover{
+    
+}
+.portfolio-section img{
+
+} */
+
+.portfolio-section img{
+    width: 100%;
+    object-fit: cover;
+    height: 200px;
+}
+.cus-margin{
+    margin-bottom: 20px;
+}
+
+/*service-details*/
+.service-details{
+    width: 100%;
+    padding: 20px 10px;
+}
+.service-details .icon-area{
+    width: 20%;
+}
+.icon-area span{
+    border: 1px solid #149ddd;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #149ddd;
+    color: #fff;
+    font-size: 25px;
+}
+
+.icon-area span:hover{
+    color: #149ddd;
+    background-color: #fff;
+}
+.service-details .defination{
+    width: 80%;
+}
+.service-details .defination h6{
+    font-size: 20px;
+    font-weight: 400;
+}
+.service-details .defination p{
+    font-size: 15px;
+    font-weight: 300 ;
+}
+.Testimonials{
+    background-color: #f5f8fd;
+}
+.slider-main{
+    width: 100%;
+}
+.slider-items{
+    width: 25%;
+
+}
+.slider-items .box{
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 30px;
+    
+}
+.slider-items img{
+    width: 30%;
+}
+.slider-items .box p{
+    font-size: 20px;
+    font-weight: 400;
+    box-shadow: 0px 2px 15px rgba(0, 0,);
+}
+.slider-items .box span{
+    color: rgb(136, 144, 146);
+    font-size: 30px;
+}
+.slider-items figure figcaption{
+    color: #040b14;
+    font-size: 25px;
+    font-weight: 500;
+}
+.slider-items figure p{
+    color: #919299;
+}
+
+.contact-details{
+    width: 100%;
+    padding: 20px 10px;
+}
+.contact-details .icon-area{
+    width: 15%;
+}
+.contact-details .defination{
+    width: 85%;
+}
+
+.contact-details .defination h6{
+    font-size: 30px;
+    font-weight: 400;
+}
+.contact-details .defination p{
+    font-size: 25px;
+    font-weight: 300 ;
+}
+
+.contact label{
+    font-size: 25px;
+}
